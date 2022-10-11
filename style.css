@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{font-family: 'Poppins', sans-serif;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;}
+header{background-color:darkgray;
+width: 100%;
+display: flex;
+position: fixed;
+z-index: 999;
+justify-content: space-between;
+
+padding:5px 100px
+}
+.logo{text-decoration: none;
+font-size: 1.8em;
+font-weight: 700;
+color: black;
+text-transform: uppercase;
+}
+.navigation a{font-size: 1.1em;
+color:black;
+text-decoration:row;
+font-weight: 500;
+padding-left: 30px;
+}
+.navigation a:hover{color:white;}
+
+section{padding:200px 200px}
+
+.main{width:100%;
+min-height:100vh ;
+display:flex;
+flex-wrap: wrap;
+text-align:center;
+background-image: url(image/hamoda.jpg);
+background-position: center;
+background-size: cover;
+background-attachment:fixed;
+align-items: center;
+}
+.main h2{font-size: 1.4em;
+    font-weight: 400;
+    color:white;
+}
+.main h2 span{font-size: 1.7em;
+font-weight: 600;
+color:white;
+display:inline-block;
+margin-top:5px;
+}
+.main h4{color: white;
+font-size: 1.3em;
+font-weight: 300;
+margin-bottom: 30px;
+margin-top:10px;
+letter-spacing: 1px;
+}
+.main-btn{text-decoration: none;
+font-size: 1.2em;
+font-weight: 300;
+color: white;
+background-color:black;
+display:inline-block;
+padding-right: 0.7em 0.5em;
+letter-spacing: 1px;
+border-radius: 50px;
+margin-bottom: 30px;
+transition: 0.7s ease}
+
+.main-btn:hover{background-color: black;
+transform:scale(1.5)}
+
+.social-media a {font-size: 2em;
+font-weight: 200;
+color:white;
+padding-right:30px}
+.title{font-size:2.5em;
+font-weight: 00;
+display:flex;
+justify-content: center;
+color:rgb(10, 10, 10);
+margin-bottom: 20px;}
+.social-media :hover{opacity: 0.9;}
+
+
+
+.content{display:flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap:wrap;}
+
+
+.card{width: 15em;
+border-radius: 20px;
+background-color:white;
+box-shadow: 0 4px 27px rgba(1,1,1,18%);
+margin:20px;
+padding:30px;
+transition: 0.7s ease}
+.card:hover{transform:scale(1.2);}
+.info{text-align:center;
+}
+.info h3{font-size:1.1em;
+font-weight: 500;
+margin:10px;
+color:black;}
+.icon{font-size:8em;
+color:black;
+font-weight: 700;
+text-align: center;}
+.projects{background-color:rgb(109, 103, 103);}
+.projects.content{margin:30px;}
+.projects-card{
+    border:1px solid whitesmoke;
+    min-height: 15em;
+width:23em;
+overflow: hidden;
+transition: 0.7s ease;
+margin:30px
+}
+.projects-card:hover{opacity: 0.7;}
+.projects-card:hover{transform: scale(1.2);}
+.image img{width:100%;}
+.project-catogory{font-size: 0.8em;}
+.project-title{display:flex;
+justify-content:space-between;
+text-transform: uppercase;
+margin-top:10px;
+font-weight: 800;}
+.project-details{color:rgb(248, 184, 89);
+text-decoration:none;}
+.project-details:hover{color:whitesmoke}
+.icon3{font-size:4.5em;display:flex;justify-content: center;}
+
+.contact.info h3 {color: black;}
+.three {font-size:0.7em ;}
+.footer{background-color:rgb(100, 99, 99);
+color:white;
+display: flex;
+justify-content: space-between;
+}
+.footer-title{font-size:1.3em;}
+.social-icons a{font-size: 1.3em;padding:0 12px 0 0;
+    color:white}
+span{color:black;
+font-weight: 600;}
+@media(max-width:1023px){
+    header{padding:12px 20px;}
+    .navigation a {padding-left:10px}
+    .title{font-size: 1.8em;}
+    section{padding:80px 20px}
+    .main-conten h2{font-size: 1em;}
+    .main-content h3{font-size: 1.6em;}
+    .content{flex-direction: column;
+    align-items: center;
+}
+}
